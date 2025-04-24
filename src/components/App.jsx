@@ -1,9 +1,14 @@
 
 import '../styles/App.scss';
+import Footer from './Footer';
+import Home from './Home';
 
 function App() {
   return (
-    <h1>template</h1>
+    <>
+    <Home/>
+    <Footer/>
+    </>
   );
 }
 
